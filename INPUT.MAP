@@ -1,0 +1,339 @@
+###########################################################################
+#                           MechWarrior II                                #
+#                         Input Mapping File                              #
+#                                                                         #
+#  This file allows you to configure the inputs to the MechWarrior sim.   #
+#                                                                         #
+###########################################################################
+
+# Available controls
+# torso_tilt
+# torso_tilt_plus
+# torso_tilt_minus
+# torso_tilt_reset
+# torso_pan
+# torso_pan_plus
+# torso_pan_minus
+# torso_pan_set
+# torso_pan_reset
+# throttle
+# legs_pan_delta
+# jumpjet_enabled
+# jumpjet_fire_left
+# jumpjet_fire_right
+# jumpjet_fire_forward
+# jumpjet_fire_backward
+# throttle_plus
+# throttle_minus
+# throttle_set
+# weapon_fire
+# weapon_cycle
+# weapon_fire_group
+# weapon_fire_group_1
+# weapon_fire_group_2
+# weapon_fire_group_3
+# weapon_cycle_group
+# toggle_group_fire
+# legs_pan_minus
+# legs_pan_plus
+# advance_nav
+# previous_nav
+# reset_nav
+# advance_target
+# previous_target
+# reset_target
+# target_reticle
+# target_friendly
+# nearest_enemy
+# target_last_shot
+# inspect_target
+# advance_gamepiece
+# previous_gamepiece
+# reset_gamepiece
+# advance_gamething
+# previous_gamething
+# reset_gamething
+# self_destruct
+# autopilot
+# pilot_tilt
+# pilot_tilt_plus
+# pilot_tilt_minus
+# pilot_tilt_reset
+# pilot_pan
+# pilot_pan_plus
+# pilot_pan_minus
+# pilot_pan_reset
+# glance_left
+# glance_right
+# glance_up
+# glance_down
+# eyepoint_tilt
+# eyepoint_tilt_plus
+# eyepoint_tilt_minus
+# eyepoint_tilt_reset
+# eyepoint_pan_delta
+# eyepoint_pan_plus
+# eyepoint_pan_minus
+# eyepoint_pan_reset
+# eyepoint_slide_delta
+# eyepoint_slide_plus
+# eyepoint_slide_minus
+# track_distance_delta
+# track_distance_plus
+# track_distance_minus
+# track_height_delta
+# track_height_plus
+# track_height_minus
+# zoom_factor
+# zoom_factor_plus
+# zoom_factor_minus
+# zoom_factor_reset
+# menu_item
+# menu_item_reset
+# menu_value
+# menu_value_reset
+# menu_enter
+# menu_abort
+
+# Turning, on the keypad arrows
+legs_pan_minus {
+   + keyboard    *S
+   - keyboard    Control
+}
+legs_pan_plus {
+   + keyboard    *F
+   - keyboard    Control
+}
+throttle_plus {
+   + keyboard *E
+   - keyboard Shift
+}
+throttle_minus {
+   + keyboard D
+   - keyboard Shift
+}
+# NOTE This is actually super-powerful for circle strafing, but right now I'm
+# binding shift to control pilot pan
+# legs_pan_delta {
+# 	+ mouse	Left/Right
+#     + keyboard Shift
+# }
+torso_pan_minus {
+	+ keyboard	Comma
+}
+torso_pan_plus {
+	+ keyboard	Period
+}
+torso_tilt {
+	+ mouse	Up/Down
+}
+pilot_pan_minus {
+	+ keyboard	GreyLeftArrow
+	+ keyboard	Control
+}
+pilot_pan_plus {
+	+ keyboard	GreyRightArrow
+	+ keyboard	Control
+}
+eyepoint_pan_minus {
+	+ keyboard	GreyLeftArrow
+	+ keyboard	Control
+}
+eyepoint_pan_plus {
+	+ keyboard	GreyRightArrow
+	+ keyboard	Control
+}
+pilot_tilt_minus {
+	+ keyboard	GreyDownArrow
+	+ keyboard	Control
+}
+pilot_tilt_plus {
+	+ keyboard	GreyUpArrow
+	+ keyboard	Control
+}
+zoom_factor_minus {
+	+ keyboard	*V
+	+ keyboard	Shift
+}
+zoom_factor_plus {
+	+ keyboard	*V
+	- keyboard	Shift
+}
+track_height_minus {
+	+ keyboard	*E
+	+ keyboard	Control
+	- keyboard  Shift
+}
+track_height_plus {
+	+ keyboard	D
+	+ keyboard	Control
+	- keyboard  Shift
+}
+track_distance_plus {
+	+ keyboard	*A
+	- keyboard Control
+}
+track_distance_minus {
+	+ keyboard	*A
+	+ keyboard	Control
+}
+# torso_tilt_reset {
+# 	+ keyboard	*C
+# }
+# pilot_tilt_reset {
+# 	+ keyboard	*C
+# }
+# torso_pan_reset {
+# 	+ keyboard	*C
+# }
+# pilot_pan_reset {
+# 	+ keyboard	*C
+# }
+glance_left {
+	+ keyboard *S
+	+ keyboard Shift
+}
+glance_right {
+	+ keyboard	*F
+	+ keyboard	Shift
+}
+eyepoint_pan_minus {
+	+ keyboard	Home
+}
+eyepoint_pan_plus {
+	+ keyboard	PageUp
+}
+jumpjet_enabled {
+	+ keyboard	J
+}
+jumpjet_fire_forward {
+	+ keyboard	GreyHome
+}
+jumpjet_enabled {
+	+ keyboard	GreyHome
+}
+jumpjet_fire_backward {
+	+ keyboard	GreyEnd
+}
+jumpjet_enabled {
+	+ keyboard	GreyEnd
+}
+jumpjet_fire_left {
+	+ keyboard	GreyInsert
+}
+jumpjet_enabled {
+	+ keyboard	GreyInsert
+}
+jumpjet_fire_right {
+	+ keyboard	GreyPageUp
+}
+jumpjet_enabled {
+	+ keyboard	GreyPageUp
+}
+
+# BEGIN: WASD jump jets
+# jumpjet_enabled {
+# 	+ keyboard	*W
+# 	+ keyboard  Shift
+# }
+jumpjet_enabled {
+   + keyboard    Space
+}
+jumpjet_fire_forward {
+	+ keyboard   *E
+	+ keyboard  Space 
+}
+jumpjet_fire_backward {
+	+ keyboard   D
+	+ keyboard  Space 
+}
+jumpjet_fire_right {
+	+ keyboard   *F
+	+ keyboard  Space
+}
+jumpjet_fire_left {
+	+ keyboard   *S
+	+ keyboard  Space
+}
+# END: Shift+WASD jump jets
+
+# weapon_fire {
+# 	+ keyboard	Space
+# }
+weapon_cycle {
+	+ keyboard	Enter
+}
+weapon_fire_group_1 {
+	+ mouse	LeftBtn
+}
+weapon_fire_group_2 {
+	+ mouse	RightBtn
+}
+weapon_fire_group_3 {
+	+ keyboard Z
+}
+target_reticle {
+	+ mouse	MiddleBtn
+}
+throttle_plus {
+	+ keyboard	GreyPlus
+}
+throttle_minus {
+	+ keyboard	GreyMinus
+}
+torso_pan_minus {
+	+ keyboard	End
+}
+torso_pan_plus {
+	+ keyboard	PageDown
+}
+torso_tilt_plus {
+	+ keyboard	GreyUpArrow
+	- keyboard	Control
+}
+torso_tilt_minus {
+	+ keyboard	GreyDownArrow
+	- keyboard	Control
+}
+weapon_fire {
+	+ keyboard	KeypadEnter
+}
+weapon_cycle {
+	+ keyboard	Delete
+}
+torso_pan {
+	+ mouse	Left/Right
+}
+torso_tilt {
+	+ mouse	Up/Down
+}
+pilot_pan {
+	+ mouse Left/Right
+	+ keyboard Alt
+}
+pilot_tilt {
+	+ mouse Up/Down
+	+ keyboard Alt
+}
+pilot_pan_reset {
+	+ keyboard *C
+	+ keyboard Alt
+}
+pilot_tilt_reset {
+	+ keyboard *C
+	+ keyboard Alt
+}
+legs_pan_minus {
+	+ keyboard	GreyDelete
+}
+jumpjet_enabled {
+	+ keyboard	GreyDelete
+}
+legs_pan_plus {
+	+ keyboard	GreyPageDown
+}
+jumpjet_enabled {
+	+ keyboard	GreyPageDown
+}
+# analog count = 4
+# discrete count = 55
