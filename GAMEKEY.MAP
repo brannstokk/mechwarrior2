@@ -1,0 +1,109 @@
+#***********************************************
+#*
+#*  MechWarrior II Keyboard Mapping File
+#*
+#*  MODIFY THIS FILE AT YOUR OWN RISK.
+#*
+#***********************************************
+
+###### AI Commands #########
+MAIN_MENU                       Esc
+USER_MENU                       u
+#ALL_PT_MENU                     b
+# ALL_PT_MENU                     CTRL+F1
+# PT_2_MENU                       CTRL+F2
+# PT_3_MENU                       CTRL+F3
+ALL_PT_MENU                     1
+PT_2_MENU                       2
+PT_3_MENU                       3
+
+###### F-Key Displays #######
+MFD_CYCLE                       y
+NEXT_RADAR_MODE                 F2
+RADAR_MAP_TOGGLE                b
+TOGGLE_TARGET_DISPLAY           ' 
+TOGGLE_DAMAGE_DISPLAY           F5    
+TOGGLE_HTAL                     F6
+TOGGLE_REAR_VIEW                F7
+TOGGLE_DOWN_VIEW                F8
+TOGGLE_WEAPON_DISPLAY           F9
+ORDINANCE_VIEW                  F10
+TOGGLE_HUD                      F11
+DISPLAY_OBJECTIVES              F12
+
+COCKPIT_VIEW                    6
+
+COCKPIT_RESET_ZOOM              SHIFT+v
+
+####### Driving Your Mech ########
+RESET_INPUTS	                /
+FEET_TO_TORSO                   g
+
+THROTTLE_STOP                   x
+#THROTTLE_2                      2
+#THROTTLE_3                      3
+THROTTLE_4                      4
+THROTTLE_5                      5
+#THROTTLE_6                      6
+THROTTLE_7                      7
+THROTTLE_8                      8
+THROTTLE_9                      9
+THROTTLE_FULL                   0
+THROTTLE_FULL                   c
+REVERSE_DIRECTION               SHIFT+d
+
+###### Targeting ##########
+NEXT_TARGET                     TAB
+PREV_TARGET                     CTRL+TAB
+RESET_TARGETTING                CTRL+t
+
+TARGET_NEAREST_ENEMY            t
+TARGET_FRIENDLY                 SHIFT+t
+TARGET_AT_RETICLE               r
+INSPECT_TARGET                  q
+
+NEXT_NAVPOINT                   n
+PREV_NAVPOINT                   SHIFT+n
+
+RADAR_ZOOM_IN                   ALT+x
+RADAR_ZOOM_OUT                  SHIFT+x
+
+EJECT                           CTRL+k
+TOGGLE_AUTOEJECT                CTRL+e
+
+STARTUP_MECH                    CTRL+p
+SHUTDOWN_MECH                   CTRL+p
+
+OVERRIDE_SHUTDOWN               o
+
+TOGGLE_AUTOPILOT                CTRL+a
+
+TOGGLE_MASC                     m
+
+INFRARED                        SHIFT+h 
+ENHANCED_VISION                 h
+
+SELF_DESTRUCT                   Ctrl+Alt+x
+
+############ Weapons ####################################
+
+ADD_WEAPON_TO_GROUP_1           SHIFT+1
+ADD_WEAPON_TO_GROUP_2           SHIFT+2
+ADD_WEAPON_TO_GROUP_3           SHIFT+3
+
+TOGGLE_GROUP_FIRE               BSP
+
+NEXT_WEAPON_GROUP               w
+FIRE_WEAPON_GROUP               ;
+
+JETTISON_AMMO                   j
+
+############# Miscellaneuos ###########################
+
+CRACK_MODE                      CTRL+ALT+f
+DUMP_GIF                        Ctrl+p
+
+PAUSE_GAME                      ALT+p
+PAUSE_GAME                      PAUSE
+
+EXIT_SIM                        ALT+Q
